@@ -1,0 +1,182 @@
+###################################
+Git Alapismeretek 01. Bevezetés
+https://www.youtube.com/watch?v=XDKZu9kuEn8&list=PLyriihBWoulw1KQ2aM-NMnAoVPZevfmZq
+###################################
+
+>>>
+###################################
+Git Alapismeretek 03-05. Git Init
+
+###################################
+
+>>> git init
+git status
+git add text.txt						ez még a gépemen van commit álva
+git commit -m "I v added a new file"				felküldtem a repository ba és commentet is írtam hozzá
+
+több txt t egyszerre commitálunk
+git add *.txt							az adott mappában minden .txt t hozzá szeretnék adni a mappához
+git commit -m "Commit is on the way"				feltöltöttuk a nagyba a commit ot
+git log								milyen commitok történtek a repository ban
+
+
+ezt az oldalon kell beírni:
+git remote add kisficko	http://githubXY				URL el rát a kisfickó az a helyi azonosítóm a gépen, ezt az URL t az oldalról olvasom ki
+git push -u kisficko master					kisfico masterével push olok. U = mostantól fogva ha legközelebb push olok az a kisfickó mastert fogja jelenteni csak push t kell beírni
+
+GIThub beállítás
+git config							módosítunk valamit a beállításokban, milyen emailrõl csatlakozzon a git reposíthoz
+git config --global user.email "kocsiszt@gmail.com"	
+git congig --global user.name "kocsiszt"			a munkahelyen ne ilyen nick nevet
+
+Beállítjuk a lokálisat:
+git remote add origin https://github.com/kocsiszt/GitTest.git
+git push origin master						felpussolom a masterbe
+git pull origin master --allow-unrelated-histories		ha nem akar pull olni a git akkor ezt próbáljuk meg
+
+
+Különbségek
+git diff HEAD							mi a legutolsó végleges változat
+git diff red.txt						egyetlen file módosítását nézi meg
+												
+###################################
+
+###################################
+
+>>>
+###################################
+
+###################################
+
+>>>
+###################################
+
+###################################
+
+>>>
+<> {} <> $ [] \ |
+###################################
+
+###################################
+
+>>>
+###################################
+
+###################################
+
+>>>
+
+###################################
+
+###################################
+
+>>>
+###################################
+
+###################################
+
+>>>
+
+###################################
+
+###################################
+
+>>>
+###################################
+
+###################################
+
+>>>
+
+###################################
+
+###################################
+
+>>>
+###################################
+
+###################################
+
+>>>
+
+###################################
+
+###################################
+
+>>>
+###################################
+
+###################################
+
+>>>
+
+###################################
+
+###################################
+
+>>>
+###################################
+
+###################################
+
+>>>
+
+###################################
+
+###################################
+
+>>>
+###################################
+
+###################################
+
+>>>
+###################################
+
+###################################
+
+>>>
+<> {} <> $ [] \ |
+###################################
+
+###################################
+
+>>>
+###################################
+
+###################################
+
+>>>
+
+###################################
+
+###################################
+
+>>>
+###################################
+
+###################################
+
+>>>
+
+###################################
+
+###################################
+
+>>>
+###################################
+
+###################################
+
+>>>
+
+###################################
+
+###################################
+
+>>>
+###################################
+
+###################################
+
+>>>
