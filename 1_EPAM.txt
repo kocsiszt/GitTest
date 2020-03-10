@@ -1,0 +1,208 @@
+telepíteni Intelli J idea
+1. verziókezelés GIT letöltés parancssori eszköz
+melyik verzió van rajta
+git -- version
+
+ls
+mk dir demo
+cd demo/
+ls
+
+repositori a gépemen van
+GIT repositori
+
+Git et csinál nekünk
+git init
+zOli_Dell@DESKTOP-41G0LCD MINGW64 ~/demo
+$ git init
+Initialized empty Git repository in C:/Users/zOli_Dell/demo/.git/
+
+zOli_Dell@DESKTOP-41G0LCD MINGW64 ~/demo (master)
+$
+
+##
+Fontosabb parancsok:s
+git status					még piros az index.html
+gitt add -a
+gitt add -all
+
+git add index.html				zöld lesz az index.html
+git commit					a fenti zöld lesz commitálva
+
+
+git config -l					itt látomm hogy ki kommitlt
+git commit -m "Introducing index.html"		beleírom hogy mi történt miért comitáltam 
+
+git add test/
+git reset -- hard HEAD~1			ez olyan mint a Rollback visszaállok a régire
+
+Gitlab						saját projteket lehet itt tárolni
+
+				regisztrálni github-ra
+git remote add origin példa:git@githubXYZ	létrehozok egy új remotet ORIGIN néven és ide beiilletsztem a github specifikus URL t amit kimásoltam a github ból
+git remote
+				itt kiírja hogy origin
+git remote -v
+
+git push origin master				master brach en állok és elküldö a közösbe
+				ráfrissítek és a github oldalon ott van hogy felfrissítettem
+
+
+clonozás					a saját gépemre a repositorit ki klónozom a gépemre 				
+				ssh a céges
+				HTTPS 
+cd..
+git clone git@gitlabcom:koos.daniel/epam-debrecen-javascript-training-2020.git			létrehozom a gépemen fizikálisan az EPAM os mappát
+cd epam-debrecen-javascript-training-2020
+git remote-v
+
+visszamegyek a demo mappába
+cd.. /demo
+
+
+Branch 
+
+
+branch létrehozása, és be is lép a bracnh be
+git checkout -b my-other-branch					my-other-branch ez a branch neve
+
+
+HTML
+<article>		cikk
+<footer>		lábjegyzék az oldal alján van
+<div>			több elemet kell együtt kezelni csoportosító elemek
+<nav>			menünek használjuk
+<input type="text/>	szöveges mező bele tudunk írni az oldalról
+
+
+F12
+Elements		weboldal HTML truktúrája
+Console			javaScript et lehte bele írni
+[] + {}			üres tömböt összeadom egy üres object el
+Network			
+
+##
+>>>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ide irok</title>
+    </head>
+    <body>
+        <h1>This is a very nice headling</h1>
+        <ul>
+            <li>list item1</li>
+            <li>list item2</li>
+        </ul>
+        <ol>
+            <li>
+                <li>list item1</li>
+                <li>list item2</li>
+            </li>
+        </ol>
+    </body>
+</html>
+
+##
+>>>
+
+##################################################################################################
+2 nap CSS
+##################################################################################################
+CSS	kinézet miatt használjuk
+stílusokat betűméreteket teszünk rá szövegszerkesztő
+pseudo class egy adot 
+
+box modell a szlesség meddig tart
+
+float 					beúsztatjuk a képet balra vagy jobbra
+
+
+
+position/margin				ezek az alakzatok kocka kör ovális stb 
+https://css-tricks.com/archives/
+
+Flexbox
+https://flexboxfroggy.com/#hu
+
+
+Units
+
+CSS Preprocessors
+
+Media query
+milyen stílust teszünk az elementekre
+https://codesandbox.io/s/github/zsoltszavo/epam-2020-ui-lesson-2-css
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

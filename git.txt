@@ -27,7 +27,7 @@ git push -u kisficko master					kisfico masterével push olok. U = mostantól fogv
 GIThub beállítás
 git config							módosítunk valamit a beállításokban, milyen emailrõl csatlakozzon a git reposíthoz
 git config --global user.email "kocsiszt@gmail.com"	
-git congig --global user.name "kocsiszt"			a munkahelyen ne ilyen nick nevet
+git config --global user.name "kocsiszt"			a munkahelyen ne ilyen nick nevet
 
 Beállítjuk a lokálisat:
 git remote add origin https://github.com/kocsiszt/GitTest.git
